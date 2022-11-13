@@ -14,7 +14,6 @@
 }
 
 .footer ul {
-    text-align: center;
     background-color: var(--primary-color);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -144,15 +143,12 @@ nav.navbar img.logo {
 }
 
 .footer {
-    margin-bottom: 20px;
-}
-.footer a {
-    margin: 0px 10px;
-    text-decoration: none;
-}
-.footer img {
-    width: 15%;
-    max-width: 60px;
+    background: var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width:100%;
+    justify-content: center;
 }
 
 
