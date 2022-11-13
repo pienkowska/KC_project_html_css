@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ewelina Pienkowska Portfolio</title>
+
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <img class="logo" src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f331.png" alt="logo" size="75%">
+    <a class="link" href="#" ></a>
+    <ul class="menu">
+        <li>
+            <a href="#">Projects</a>
+        </li>
+        <li>
+            <a href="#">Skills</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav> 
+
+  <main class="main_content">
+
+      <h1 class="title">
+        Ewelina Daria Pienkowska
+      </h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum inventore alias delectus voluptatum velit accusantium. Ea sint molestiae amet quis enim? Sunt, officia temporibus! Nesciunt dolore ipsam ipsum quis.
+      </p>
+      <div>
+        <img class="image" src="https://img.freepik.com/vector-premium/etapas-realistas-crecimiento-plantas-semilla-joven-que-crece-tierra-plantas-verdes-suelo-etapa-floreciente-brote-primavera-conjunto-ilustracion-cronologia-germinacion-proceso-plantulas-jardin_229548-300.jpg?w=900" >
+      </div>
+
+
+
+  <div class="contact_form" id="contact">
+    <form action="/registro_completado.html" method="post">
+            <div>
+              <label for="name" class="formulario">Name</label>
+              <input required id="name" name="name" type="text" placeholder="Write your name">
+            </div>
+            <div>
+                <label for="surname" class="formulario">Surname</label>
+                <input required id="surname" name="surname" type="text" placeholder="Write your surname">
+              </div>
+            <div>
+              <label for="phone" class="formulario">Phone</label>
+              <input required id="phone" name="phone" placeholder="Write your mobile phone number">
+            </div>
+            <div>
+                <label for="github" class="formulario">Github username</label>
+                <input required id="github" name="github" placeholder="Write your GitHub username" pattern="^@[^\s]+">
+              </div>
+            <fieldset>
+              <legend class="formulario">Where did we meet?</legend>
+              
+              <div>
+              <label for="universidad" class="formulario">University</label>
+              <input required id="universidad" type="radio" name="meet" value="universidad">
+              </div>
+              <div>
+              <label for="keepcoding" class="formulario">KeepCoding kick-off</label>
+              <input required id="keepcoding" type="radio" name="meet" value="keepcoding">
+              </div>
+              <div>
+              <label for="colegio" class="formulario">School</label>
+              <input  required id="colegio" type="radio" name="meet" value="colegio">
+              </div>
+              
+              <div>
+              <label for="github" class="formulario">Gitbub</label>
+              <input  required id="github" type="radio" name="meet" value="github">
+              </div>
+
+            </fieldset>
+            <fieldset>
+                <div><label for="message">More information</label></div>
+
+                <textarea id="message" maxlength="80" placeholder="What more do you want to know?"></textarea>
+            </fieldset>
+
+            <button type="submit">
+                Submit
+            </button>
+          </form>
+
+    </div>
+    <aside>
+      <h1 class="title">My skills</h1>
+      <div> Creativity </div>
+        <div class="progress_bar">
+          <span class="percentage creativity"></span>
+        </div>
+    </div>
+    <div> Python </div>
+    <div class="progress_bar">
+      <span class="percentage python"></span>
+    </div>
+    <div> GitHub </div>
+    <div class="progress_bar">
+      <span class="percentage GitHub"></span>
+    </div>
+    <div> Procrastination </div>
+    <div class="progress_bar">
+      <span class="percentage Procrastination"></span>
+    </div>
+    </aside>
+</div>
+</main>
+    <footer class="footer" >
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="linkedin"></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt="twitter"></a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>

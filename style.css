@@ -1,0 +1,178 @@
+:root {
+   --primary-color:  #ffd07b;
+   --secondary-color: #8e74d0;
+   font-size: 18px;
+}
+
+*{max-width: 100%;}
+
+.footer ul {
+    text-align: center;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    size: 45px;
+}
+
+.footer img {
+    width: 30%;
+    max-width: 120px;
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.navbar img.logo {
+    width: 15%;
+    max-width: 80px;
+  }
+
+.menu ul {
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.menu li link:hover {
+    color:#ffd07b;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.title {
+    font-size: 120%;
+    font-weight: bolder;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.main_content {
+    width: 100vw; /* viewport width */
+    height: 100vh; /* viewport height */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.progress_bar {
+    width: 800px;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+  }
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    animation: progress 3s;
+    }
+.creativity {
+    width: 85%;
+}
+
+.python {
+    width: 40%
+}
+
+.GitHub {
+    width: 30%;
+}
+
+.procrastinating {
+    width: 100%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    } 
+
+}
+
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    line-height: 1,6;
+    font-size: 18px;
+
+}  
+.contact_form {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.contact_form button {
+    background-color: #ffd07b;
+    padding: 10px 20px;
+    border-color: #8e74d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 3px;
+}
+
+.contact_form button:hover {
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    border-color: #8e74d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: 3px;
+    transition: 0.5s;
+}
+
+.image {
+    width: 100%;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.footer a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.footer img {
+    width: 15%;
+    max-width: 60px;
+}
+
+@media only screen and (min-width: 576px) {
+    fieldset.contact {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .menu .link {
+        transition: color var(--secondary-color) 0.3s linear ;
+    }
+
+    .navbar .menu .link:hover {
+        color: var(--primary-color);
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
